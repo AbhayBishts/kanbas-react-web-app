@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <select id="select-gradebook">
+            <option value="GRADEBOOK">Gradebook</option>
+        </select>
+        <button type="button">Import</button>
+        <select id="select-export">
+            <option value="EXPORT">Export</option>
+        </select>
+        <button type="button">Configure</button>
+
+        <form>
+            <h3>Student Names</h3>
+            <input id="student-names" placeholder="Search Students"/><br/>
+
+            <h3>Assignment Names</h3>
+            <input id="student-names" placeholder="Search Assignments"/><br/>
+
+            <br>
+            <button type="button">Apply Filters</button>
+        </form>
+
+        <br>
+
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <td><b>Student Name</b></td>
+                    <td><b>A1 SETUP <br> Out of 100</b></td>
+                    <td><b>A2 HTML <br>Out of 100</b></td>
+                    <td><b>A3 CSS <br> Out of 100</b></td>
+                    <td><b>A4 BOOTSTRAP <br> Out of 100</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Wonderland</td>
+                    <td>98</td>
+                    <td>98</td>
+                    <td><input id="alice-wonderland-a3-grade" value="92"></td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>Jason Momoa</td>
+                    <td>98</td>
+                    <td>98</td>
+                    <td>98</td>
+                    <td><input id="jason-momoa-a4-grade" value="82"></td>
+                </tr>
+                <tr>
+                    <td>Kevin Harold</td>
+                    <td><input id="kevin-harold-a9-grade" value="70"></td>
+                    <td>98</td>
+                    <td>98</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>Fork Knife</td>
+                    <td>98</td>
+                    <td><input id="fork-knife-a2-grade" value="60"></td>
+                    <td>98</td>
+                    <td>98</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
