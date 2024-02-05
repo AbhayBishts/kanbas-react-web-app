@@ -1,0 +1,8 @@
+.course-banner {
+    max-height: 128px;
+}
+.course-name {
+    text-decoration: none; 
+    color: navy; 
+    font-weight: bold;
+}
