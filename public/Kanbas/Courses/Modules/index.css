@@ -1,3 +1,7 @@
+:root {
+  --kanbasred: #d41b2c;
+}
+
 .wd-modules,
 .wd-modules * {
   border-radius: 0%;
@@ -40,7 +44,7 @@
 }
 
 #module-button {
-  background: red;
+  background: var(--kanbasred);
   color: white;
 }
 
@@ -77,12 +81,20 @@
   padding-right: 10px;
 }
 
+.right-padding-20 {
+  padding-right: 20px;
+}
+
 .left-padding-10 {
   padding-left: 10px;
 }
 
+.margin-bottom {
+  margin-bottom: 0.5rem;
+}
+
 .url {
-  color: red;
+  color: var(--kanbasred);
   text-decoration: none;
 }
 
@@ -92,4 +104,77 @@
 
 .green {
   color: green;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.top-padding-10 {
+  padding-top: 10px;
+}
+
+.top-padding-20 {
+  padding-top: 20px;
+}
+
+.button-style {
+  font-size: 14px;
+  min-width: 30px;
+  max-height: 35px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #c7cdd1;
+  background: #f5f5f5;
+  padding: 6px 10px;
+}
+
+.course-sidebar > button {
+  width: 208px;
+  margin: 1px 0;
+}
+
+#publish-course {
+  color: white;
+  background-color: green;
+}
+
+.flex-buttons {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.flex-justified {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-2 {
+  max-width: 250px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.flex-calendar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.calendar-event > p {
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
+.gray {
+  color: #677179;
 }

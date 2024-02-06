@@ -6,14 +6,17 @@
     <link rel="stylesheet" href="/Kanbas/Courses/Modules/index.css" />
   </head>
   <body>
-    <!-- Implement buttons Collapse All, View Progress, etc. here -->
     <div class="row">
-        <div class="col-9">
+        <div class="col-10 right-padding-20">
             <div class="wd-buttons">
                 <button type="button">Collapse All</button>
                 <button type="button">View Progress</button>
-                <select class="form-select" style="width: fit-content;">
-                    <option selected><i class="fa fa-circle-check"></i>Publish All</option>
+                <select class="form-select fit-content">
+                    <option selected>
+                        <i class="fa fa-circle-check"></i>
+                        Publish All
+                        <i class="fa-solid fa-angle-down"></i>
+                    </option>
                 </select>
                 <button type="button" id="module-button"><i class="fa fa-plus"></i> Module</button>
                 <button type="button">
@@ -117,21 +120,29 @@
                 </li>
             </ul>
         </div>
-        <div class="col-3">
-            <h2>Course Status</h2>
-            <button type="button">Unpublish</button>
-            <button type="button">Published</button>
-            <ul>
-                <li><a href="">Import Existing Content</a></li>
-                <li><a href="">Import From Commons</a></li>
-                <li><a href="">Choose Home Page</a></li>
-                <li><a href="">View Course Stream</a></li>
-                <li><a href="">New Announcement</a></li>
-                <li><a href="">New Analytics</a></li>
-                <li><a href="">View Course Notifications</a></li>
-            </ul>
-            <h2>Coming Up</h2>
-            <a href="">View Calendar</a>
+        <div class="col-2 right-padding-20">
+            <h6 class="top-padding-20">Course Status</h6>
+            <div class="flex-buttons">
+                <button type="button" class="button-style" id="unpublish-course"><i class="fa-solid fa-ban"></i> Unpublish</button>
+                <button type="button" class="button-style" id="publish-course"><i class="fa-solid fa-circle-check"></i> Published</button>
+            </div>
+            <br/>
+            <span class="course-sidebar">
+                <button type="button" class="button-style">Import Existing Content</button><br/>
+                <button type="button" class="button-style">Import From Commons</button><br/>
+                <button type="button" class="button-style">Choose Home Page</button><br/>
+                <button type="button" class="button-style">View Course Stream</button><br/>
+                <button type="button" class="button-style">New Announcement</button><br/>
+                <button type="button" class="button-style">New Analytics</button><br/>
+                <button type="button" class="button-style">View Course Notifications</button><br/>
+            </span>
+            <div class="flex-justified">
+                <h6 class="top-padding-20">Coming Up</h6>
+                <span class="margin-bottom">
+                    <a href="#">View Calendar</a>
+                </span>
+            </div>
+            <hr class="no-margin"/>
             <ul>
                 <li><a href="">Lecture CS4550.12631.202410 Sep 7 at 11:45am</a></li>
                 <li><a href="">Lecture CS4550.12631.202410 Sep 11 at 11:45am</a></li>
