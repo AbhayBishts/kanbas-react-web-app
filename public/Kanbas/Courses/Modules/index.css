@@ -120,7 +120,7 @@
 
 .button-style {
   font-size: 14px;
-  min-width: 30px;
+  min-width: 103px;
   max-height: 35px;
   border-radius: 3px;
   border: 1px solid;
@@ -177,4 +177,28 @@
 
 .gray {
   color: #677179;
+}
+
+.no-right-padding {
+  padding-right: 0px;
+}
+
+.no-left-padding {
+  padding-left: 0px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+#main-course-content {
+  min-width: 650px;
+}
+
+.new-nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
 }

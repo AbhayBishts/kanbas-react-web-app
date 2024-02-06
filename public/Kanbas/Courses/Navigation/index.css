@@ -3,12 +3,11 @@
     list-style: none;
     padding: 0px;
     width: 125px;
-    margin: 0px;
-    margin-left: 20px;
+    margin: 0px 20px;
   }
   .wd-navigation li {
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 7px;
+    padding-top: 7px;
     padding-bottom: 10px;
   }
   .wd-navigation li.wd-active {
@@ -21,4 +20,9 @@
     color: red;
     text-decoration: none;
   }
+.nav-header {
+  margin: 15px 25px;
+  font-size: 13px;
+  color: #677179;
+}
   
