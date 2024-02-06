@@ -13,19 +13,19 @@
 
 .wd-modules > li {
   background-color: lightgray;
-  border: 1px solid gray !important;
+  border: 1px solid #c7cdd1 !important;
   border-left: none !important;
 }
 
 .wd-modules > li > div {
-  padding: 6px;
-  border-left: 1px solid gray !important;
+  padding: 6px 10px 6px 10px;
+  border-left: 1px solid #c7cdd1 !important;
 }
 
 .wd-modules > li > ul > li {
-  padding: 5px;
-  border-top: 1px solid gray !important;
-  border-left: 2px solid green;
+  padding: 5px 10px 5px 10px;
+  border-top: 1px solid #c7cdd1 !important;
+  border-left: 5px solid green;
 }
 
 .wd-modules > li {
@@ -48,13 +48,48 @@
 .wd-buttons > select {
   min-width: 30px;
   max-height: 35px;
-  border-radius: 5px;
+  border-radius: 3px;
   margin: 0 1px 0 1px;
-  
-  border-width: 1px;
+  border: 1px solid;
   border-color: #c7cdd1;
   background: #f5f5f5;
+  padding: 4px 14px;
 }
 
 .clear { clear: both; }
 
+.list-group-item > div {
+  background: #f5f5f5;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.module-items > li {
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-padding-10 {
+  padding-right: 10px;
+}
+
+.left-padding-10 {
+  padding-left: 10px;
+}
+
+.url {
+  color: red;
+  text-decoration: none;
+}
+
+.black {
+  color: black;
+}
+
+.green {
+  color: green;
+}
