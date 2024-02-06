@@ -8,5 +8,5 @@ body * {
 
 .sidebar {
     width: 80px;
-    background: black;
+    height: 100%;
 }
