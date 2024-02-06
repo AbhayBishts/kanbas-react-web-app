@@ -8,133 +8,129 @@
     <link rel="stylesheet" href="/Kanbas/Dashboard/index.css" />
   </head>
   <body>
-    <table width="100%">
-      <tbody>
-        <tr>
-          <td valign="top" class="d-none d-sm-block sidebar">
-            <ul class="wd-kanbas-navigation">
-                <li id="university-logo-item">
-                  <a href="http://northeastern.edu">
-                    <img src="/images/northeastern.png" class="university-logo"/>
-                  </a>
-                </li>
-                <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-user" id="account-icon"></i>Account</a></li>
-                <li class="wd-active">
-                    <a href="/Kanbas/Dashboard/screen.html">
-                    <i class="fa fa-tachometer"></i> Dashboard</a>
-                </li>
-                <li><a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i>Courses</a> </li>
-                <li><a href="#"><i class="fa fa-calendar"></i>Calendar</a></li>
-                <li><a href="#"><i class="fa fa-inbox"></i><br/>Inbox</a></li>
-                <li><a href="#"><i class="fa-regular fa-clock"></i>History</a></li>
-                <li><a href="#"><i class="fa fa-chalkboard"></i> Studio</a></li>
-                <li><a href="#"><i class="fa fa-arrow-right"></i> Commons</a></li>
-                <li><a href="#"><i class="fa-regular fa-circle-question"></i><br/>Help</a></li>
-            </ul>
-          </td>
-          <td>
-            <div class="p-4">
-              <h1>Dashboard</h1> <hr />
-              <h2>Published Courses (7)</h2> <hr />
-              <div class="row">
-                <div class="row row-cols-1 row-cols-md-5 g-4">
-                  <div class="col" style="width: 300px">
-                    <div class="card">
-                      <img src="/images/coding.jpg" class="card-img-top course-banner"/>
-                      <div class="card-body" id="course-one">
-                        <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
-                          CS1234 React JS
-                          <p class="card-text course-details">CS1234.30299.202430</p>
-                          <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
-                        </a>
-                        <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
-                      </div>
-                    </div>
+    <div class="d-flex">
+      <div class="d-none d-sm-block sidebar">
+        <ul class="wd-kanbas-navigation">
+          <li id="university-logo-item">
+            <a href="http://northeastern.edu">
+              <img src="/images/northeastern.png" class="university-logo"/>
+            </a>
+          </li>
+          <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-user" id="account-icon"></i>Account</a></li>
+          <li class="wd-active">
+              <a href="/Kanbas/Dashboard/screen.html">
+              <i class="fa fa-tachometer"></i> Dashboard</a>
+          </li>
+          <li><a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i>Courses</a> </li>
+          <li><a href="#"><i class="fa fa-calendar"></i>Calendar</a></li>
+          <li><a href="#"><i class="fa fa-inbox"></i><br/>Inbox</a></li>
+          <li><a href="#"><i class="fa-regular fa-clock"></i>History</a></li>
+          <li><a href="#"><i class="fa fa-chalkboard"></i> Studio</a></li>
+          <li><a href="#"><i class="fa fa-arrow-right"></i> Commons</a></li>
+          <li><a href="#"><i class="fa-regular fa-circle-question"></i><br/>Help</a></li>
+        </ul>
+      </div>
+      <div class="flex-fill">
+        <div class="p-4">
+          <h1>Dashboard</h1> <hr />
+          <h2>Published Courses (7)</h2> <hr />
+          <div class="row">
+            <div class="row row-cols-1 row-cols-md-5 g-4">
+              <div class="col" style="width: 300px">
+                <div class="card">
+                  <img src="/images/coding.jpg" class="card-img-top course-banner"/>
+                  <div class="card-body" id="course-one">
+                    <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
+                      CS1234 React JS
+                      <p class="card-text course-details">CS1234.30299.202430</p>
+                      <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
+                    </a>
+                    <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
                   </div>
-                  <div class="col" style="width: 300px">
-                    <div class="card">
-                      <img src="/images/chemistry.jpg" class="card-img-top course-banner"/>
-                      <div class="card-body">
-                        <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
-                          SC1234 Chemistry
-                          <p class="card-text course-details">SC1234.30299.202430</p>
-                          <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
-                        </a>
-                        <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col" style="width: 300px">
+                <div class="card">
+                  <img src="/images/chemistry.jpg" class="card-img-top course-banner"/>
+                  <div class="card-body">
+                    <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
+                      SC1234 Chemistry
+                      <p class="card-text course-details">SC1234.30299.202430</p>
+                      <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
+                    </a>
+                    <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
                   </div>
-                  <div class="col" style="width: 300px">
-                    <div class="card">
-                      <img src="/images/gym.jpg" class="card-img-top course-banner"/>
-                      <div class="card-body">
-                        <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
-                          PE1234 Physical Education
-                          <p class="card-text course-details">PE1234.30299.202430</p>
-                          <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
-                        </a>
-                        <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col" style="width: 300px">
+                <div class="card">
+                  <img src="/images/gym.jpg" class="card-img-top course-banner"/>
+                  <div class="card-body">
+                    <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
+                      PE1234 Physical Education
+                      <p class="card-text course-details">PE1234.30299.202430</p>
+                      <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
+                    </a>
+                    <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
                   </div>
-                  <div class="col" style="width: 300px">
-                    <div class="card">
-                      <img src="/images/history.png" class="card-img-top course-banner"/>
-                      <div class="card-body">
-                        <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
-                          HS1234 History
-                          <p class="card-text course-details">HS1234.30299.202430</p>
-                          <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
-                        </a>
-                        <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col" style="width: 300px">
+                <div class="card">
+                  <img src="/images/history.png" class="card-img-top course-banner"/>
+                  <div class="card-body">
+                    <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
+                      HS1234 History
+                      <p class="card-text course-details">HS1234.30299.202430</p>
+                      <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
+                    </a>
+                    <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
                   </div>
-                  <div class="col" style="width: 300px">
-                    <div class="card">
-                      <img src="/images/math.jpeg" class="card-img-top course-banner"/>
-                      <div class="card-body">
-                        <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
-                          MT1234 Algebra
-                          <p class="card-text course-details">MT1234.30299.202430</p>
-                          <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
-                        </a>
-                        <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col" style="width: 300px">
+                <div class="card">
+                  <img src="/images/math.jpeg" class="card-img-top course-banner"/>
+                  <div class="card-body">
+                    <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
+                      MT1234 Algebra
+                      <p class="card-text course-details">MT1234.30299.202430</p>
+                      <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
+                    </a>
+                    <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
                   </div>
-                  <div class="col" style="width: 300px">
-                    <div class="card">
-                      <img src="/images/minion.jpeg" class="card-img-top course-banner"/>
-                      <div class="card-body">
-                        <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
-                          MN1234 Minion Training
-                          <p class="card-text course-details">MN1234.30299.202430</p>
-                          <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
-                        </a>
-                        <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col" style="width: 300px">
+                <div class="card">
+                  <img src="/images/minion.jpeg" class="card-img-top course-banner"/>
+                  <div class="card-body">
+                    <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
+                      MN1234 Minion Training
+                      <p class="card-text course-details">MN1234.30299.202430</p>
+                      <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
+                    </a>
+                    <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
                   </div>
-                  <div class="col" style="width: 300px">
-                    <div class="card">
-                      <img src="/images/music.jpeg" class="card-img-top course-banner"/>
-                      <div class="card-body">
-                        <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
-                          MS1234 Music in Life
-                          <p class="card-text course-details">MS1234.30299.202430</p>
-                          <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
-                        </a>
-                        <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col" style="width: 300px">
+                <div class="card">
+                  <img src="/images/music.jpeg" class="card-img-top course-banner"/>
+                  <div class="card-body">
+                    <a class="card-title course-name" href="/Kanbas/Courses/Home/screen.html">
+                      MS1234 Music in Life
+                      <p class="card-text course-details">MS1234.30299.202430</p>
+                      <p class="card-text course-details course-term">Spring 2024 Semester Full Term</p>
+                    </a>
+                    <a href="/Kanbas/Courses/Home/screen.html" class="btn btn-primary"> Go </a>
                   </div>
                 </div>
               </div>
             </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
