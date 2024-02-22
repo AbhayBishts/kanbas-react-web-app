@@ -1,0 +1,337 @@
+:root {
+  --kanbasred: #d41b2c;
+}
+
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+  padding-top: 10px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid #c7cdd1 !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px 10px 6px 10px;
+  border-left: 1px solid #c7cdd1 !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px 10px 5px 10px;
+  border-top: 1px solid #c7cdd1 !important;
+  border-left: 5px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.wd-buttons {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding: 15px 0 15px 0;
+    margin-right: 5px;
+}
+
+#module-button {
+  background: var(--kanbasred);
+  color: white;
+}
+
+.wd-buttons > button,
+.wd-buttons > select {
+  min-width: 30px;
+  max-height: 35px;
+  border-radius: 3px;
+  margin: 0 1px 0 1px;
+  border: 1px solid;
+  border-color: #c7cdd1;
+  background: #f5f5f5;
+  padding: 4px 14px;
+}
+
+.clear { clear: both; }
+
+.list-group-item > div {
+  background: #f5f5f5;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.module-items > li {
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-padding-10 {
+  padding-right: 10px;
+}
+
+.right-padding-20 {
+  padding-right: 20px;
+}
+
+.left-padding-10 {
+  padding-left: 10px;
+}
+
+.left-padding-20 {
+  padding-left: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 0.5rem;
+}
+
+.url {
+  color: var(--kanbasred);
+  text-decoration: none;
+}
+
+.black {
+  color: black;
+}
+
+.green {
+  color: green;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.top-padding-3 {
+  padding-top: 3px;
+}
+
+.top-padding-10 {
+  padding-top: 10px;
+}
+
+.top-padding-20 {
+  padding-top: 20px;
+}
+
+.button-style {
+  font-size: 14px;
+  min-width: 103px;
+  max-height: 35px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #c7cdd1;
+  background: #f5f5f5;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.course-sidebar > button {
+  width: 208px;
+  margin: 1px 0;
+}
+
+#publish-course {
+  color: white;
+  background-color: green;
+}
+
+.flex-buttons {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.flex-justified {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-right-align,
+.flex-right-align > a {
+  margin-left: auto; 
+  margin-right: 0;
+}
+
+.col-2 {
+  max-width: 250px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.flex-calendar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.calendar-event > p {
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
+.gray {
+  color: #677179;
+}
+
+.no-right-padding {
+  padding-right: 0px;
+}
+
+.no-left-padding {
+  padding-left: 0px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+#main-course-content {
+  min-width: 650px;
+}
+
+.new-nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.new-nav > a,
+.new-nav > span > a {
+  text-decoration: none;
+}
+
+.new-nav > a > button,
+.new-nav > span > a > button {
+  background-color: black;
+  border: none;
+}
+
+.new-nav > a > button > i,
+.new-nav > span > a > button > i {
+  color: white;
+  font-size: 18px;
+}
+
+.breadcrumb {
+  display: block;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.dismiss-todo {
+  font-size: 10px;
+  padding: 3px 10px;
+  background: white;
+  border: none;
+}
+
+.breadcrumb-header {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  font-size: 18px;
+  padding: 0 30px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.menu-button {
+  background-color: white;
+  border: none;
+}
+
+.student-view-button {
+  font-size: 14px;
+  min-width: 103px;
+  max-height: 35px;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #c7cdd1;
+  background: #f5f5f5;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.breadcrumb-header > span > button > i {
+  font-size: 25px;
+  color: var(--kanbasred);
+}
+
+.breadcrumb-header > span > span {
+  margin-left: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.breadcrumb-header > span > span > i {
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+}
+
+.hr-edges {
+  margin: 10px 20px;
+}
+
+.collapse > a,
+.collapse > div > a {
+  text-decoration: none;
+  color: var(--kanbasred);
+  font-size: 20px;
+}
+
+.collapse > a > i,
+.collapse > div > a > i {
+  padding-right: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  line-height: 50px;
+}
+
+.small-line-height {
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.fa-eye-slash {
+  color: black;
+}
+
+.margin-right-15 {
+  margin-right: 15px;
+}

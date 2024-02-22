@@ -1,0 +1,23 @@
+.course-banner {
+    max-height: 128px;
+}
+.course-name {
+    text-decoration: none; 
+    color: navy; 
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 1px;
+}
+
+.course-details {
+    padding: 5px 0 0px 0;
+    font-size: 1rem;
+    color: #677179;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+.course-term {
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}

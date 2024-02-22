@@ -1,0 +1,56 @@
+.assignment-buttons {
+    float: left;
+    margin-left: 5px;
+}
+
+.assignment-buttons > input,
+.assignment-buttons > button {
+    margin: 0px 2px;
+    min-width: 40px;
+}
+
+#assignment-button {
+    color: white;
+    background-color: var(--kanbasred);
+}
+
+.assignment-search {
+    min-width: 300px;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: fit-content;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.multiple-modules {
+    white-space: nowrap;
+    color: var(--kanbasred);
+    font-weight: 600;
+    background-color: white;
+}
+
+.green {
+    color: green;
+}
+
+.grade-percent {
+    margin-right: 10px;
+    border: solid;
+    border-radius: 20px;
+    border-width: 1px;
+}
+
+.grade-percent > span {
+    padding: 5px;
+}

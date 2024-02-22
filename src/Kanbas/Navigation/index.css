@@ -1,0 +1,44 @@
+:root {
+    --kanbasred: #d41b2c;
+}
+
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;  margin: 0px;
+    width: 80px;
+    height: 100%;
+}
+.wd-kanbas-navigation li {
+    padding: 10px;     
+    font-size: 0.8em;  
+    text-align: center;
+}
+.wd-kanbas-navigation li.wd-active {
+    background-color: white;
+}
+.wd-kanbas-navigation li.wd-active a {
+    color: red;
+}
+.wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+}
+.wd-kanbas-navigation a svg {
+    color: var(--kanbasred);
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.university-logo {
+    max-height: 80px;
+    max-width: 80px; 
+}
+
+#account-item svg {
+    color: #ffffff;
+}
+
+#university-logo-item {
+    padding: 0px;
+}
