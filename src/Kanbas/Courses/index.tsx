@@ -9,9 +9,9 @@ import Home from "./Home";
 import Assignments from "./Assignments";
 import { useState } from "react";
 
-function Courses() {
+function Courses({ courseList }: { courseList: any[]; }) {
   const { courseId } = useParams();
-  const course = courses.find((course) => course._id === courseId);
+  const course = courseList.find((course) => course._id === courseId);
   const location = useLocation();
   const locationArray = location.pathname.split('/')
   const currentModule = locationArray[locationArray.length - 1]

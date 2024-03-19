@@ -335,3 +335,34 @@
 .margin-right-15 {
   margin-right: 15px;
 }
+
+.edit-modules {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.edit-modules > button {
+  margin: 0 10px 0 0;
+  padding: 5px 10px;
+  border: 1px solid #c7cdd1;
+  border-radius: 3px;
+  height: 35px;
+}
+
+.edit-modules > textarea,
+.edit-modules > input {
+  margin: 0 10px 0 0;
+  padding: 5px;
+  border: 1px solid #c7cdd1;
+  border-radius: 3px;
+  height: 35px;
+}
+
+.modify-module {
+  border: 1px solid #c7cdd1;
+  padding: 0 10px;
+  margin: 0 3px;
+}

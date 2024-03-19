@@ -21,3 +21,21 @@
     font-size: 0.8rem;
     padding-bottom: 10px;
 }
+
+.middle-button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.course-details-form {
+    max-width: 500px;
+}
+
+.course-details-form > input {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.course-details-form > button {
+    margin-right: 5px;
+}
